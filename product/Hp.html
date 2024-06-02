@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiện Dũng - LAPTOP_HP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Home/css/mymenu.css"> <!--Css phần đầu trang-->
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="/Home/css/myfooter.css">   <!--Css phần chân trang-->
+    <link rel="icon" type="image/png" href="/img/logo-home.png">
+    
+</head>
+<body>
+    <!----------------------------- phần đầu trang ----------------------------->
+    <section class="myheader">
+      <div class="container py-4">
+          <div class="row">
+              <div class="col-md-3 ">
+                 <a href="/Home/html/Home.html"><img src="/img/logo1.png" alt="logo" class="img-fluid" style="margin-top: -36px; height: 110px"></a>
+              </div>
+              <div class="col-md-4">
+                  <div class="input-group mb-3 border border-danger rounded "> <!--bo tròn viền đỏ trong class của bootstrap-->
+                      <input type="text" class="form-control" placeholder="Tìm kiếm sản phẩm ..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                      <span class="input-group-text " id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i></span> <!--Sử dụng thư viện icon từ fontawesome, icon tìm kiếm-->
+                    </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="row">
+                      <div class="col">
+                          <div class="row">
+                              <div class="col-3">
+                                  <div class="fs-3 text-danger">
+             <!--icon phone--><i class="fa-solid fa-phone"></i> 
+                                  </div>
+                              </div>
+                              <div class="col-9 text">
+                                  Hotline hỗ trợ<br>
+                                  <strong><a class="text-danger" href="tel:09999999999" style=" text-decoration: none;">0999.999.999</a></strong>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col">
+                          <div class="row">
+                            <div class="col-3">
+                              <div class="fs-3 text-danger">
+                                  <i class="fa-solid fa-user"></i> <!--icon user-->
+                              </div>
+                          </div>
+                          <div class="col-9 text">
+                              Xin chào !<br>
+                              <a href="/http:fb.com" style="text-decoration: none;"><strong class="text-danger"> Đăng nhập</strong></a>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-md-2 text-center ">
+                  <div class="row">
+                      <div class="col text">  <a href="/quatang" class="icon-box position-relative">
+   <!--icon hộp quà-->  <i class="fa-solid fa-gift"></i></a>
+                          <span class="position-absolute top-3 start-100 translate-middle badge rounded-pill bg-danger" style="margin-left: -197px;">0</span>
+                     <p><b>Quà tặng</b></p>
+                  </div>
+                      <div class="col text">  <a href="/giohang" class="icon-box position-relative">
+  <!--icon giỏ hàng--> <i class="fa-solid fa-cart-shopping"></i></a>
+                          <span class="position-absolute top-3 start-100 translate-middle badge rounded-pill bg-danger" style="margin-left: -85px;">0</span>
+                     <p><b>Giỏ hàng</b></p>
+                  </div>
+               </div>
+            </div>
+  </section>
+     
+    <!-----------------------------------------------Phần menu----------------------------------------->
+    <section class="mymenu bg-info">
+      <div class="container">
+      <div class="row">
+          <div class="col-md-3 text-black py-3 nav-menu">
+            <div class="menu-title"><i class="fa-solid fa-laptop"></i> Danh mục Laptop</div>  <!--icon laptop của font awesome-->
+           <ul class="menu-1"> 
+            <li><a  href="/Home/html/All-products.html#macbook"><i class="fa-solid fa-laptop"></i> MACBOOK</a></li>
+            <li><a  href="/Home/html/All-products.html#asus"><i class="fa-solid fa-laptop"></i> ASUS</a></li>
+            <li><a  href="/Home/html/All-products.html#HP"><i class="fa-solid fa-laptop"></i> HP</a></li>
+            <li><a  href="/Home/html/All-products.html#dell"><i class="fa-solid fa-laptop"></i> DELL</a></li>
+            <li><a  href="/Home/html/All-products.html#msi"><i class="fa-solid fa-laptop"></i> MSI</a></li>
+            <li><a  href="/Home/html/All-products.html#lenovo"><i class="fa-solid fa-laptop"></i> LENOVO</a></li>
+            </ul>
+
+          </div> 
+          <div class="col-md-9">
+              <nav class="navbar navbar-expand-lg bg-body-warning">
+                  <div class="container-fluid">
+                    <a class="navbar-brand " href="#" style="color: white;">|</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active text-black" aria-current="page" href="/Home/html/Home.html"><i class="fa-solid fa-house"></i> Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-black" href="/Home/html/All-products.html#laptop-new">Laptop mới</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle text-black" href="/Home/html/All-products.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sản phẩm
+                          </a>  
+                            <ul class="sub-menu" >
+                            <li><a href="/Home/html/All-products.html">Laptop<i class="fa-solid fa-caret-right" style="margin-left: 100px;"></i></a>
+                            <ul class="sub-menu">
+                              <li><a  href="/product/Macbook.html">MACBOOK</a></li>
+                              <li><a  href="/product/Asus.html">ASUS</a></li>
+                              <li><a  href="/product/Hp.html">HP</a></li>
+                              <li><a  href="/product/Dell.html">DELL</a></li>
+                              <li><a  href="/product/Msi.html">MSI</a></li>
+                              <li><a  href="/product/Lenovo.html">LENOVO</a></li>
+                            </ul>
+                          </li>
+                            <li><a  href="#">Linh kiện - phụ kiện</a></li>
+                            <li><a  href="#">Card đồ họa</a></li>
+                            </ul>             
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link  text-black" aria-disabled="true">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link  text-black" aria-disabled="true">Tin tức mới</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-black" aria-disabled="true">Khuyến mãi</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-black" aria-disabled="true" href="tuyendung.html">Tuyển dụng</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+          </div>
+      </div>
+      </div>
+  </section>
+
+    <!------------------------------------Phần nội dung--------------------------->
+   <section class="hp-title">
+    <div class="container">
+        <div class="hp-title">
+            <div class="title-one">
+               <ul>
+                <li><a href="/Home/html/All-products.html">Laptop</a> > <span style="font-weight: bold;">10</span> Laptop HP</li>
+            </ul>
+            </div>
+            
+            <div class="hp-title-img">
+                <img src="/img/hp-title.png" alt="hp-img-title">
+            </div>
+        </div>
+    </div>
+   </section>
+
+<!--------------------------------------LAPTOP HP------------------------>
+  <section class="all-hp my-4" id="">
+    <div class="container">
+      <div class="all-hp-content">
+        <div class="all-hp-title">
+          <img src="/img/logo-hp.png" alt="logo-hp">
+        </div>
+        <div class="all-product">
+          <!-----------------------Laptop_HP_1-------------------------->
+          <div class="all-product-item">
+            <img src="/img/pd11-HP_7C0P2PA i5.jpg" alt="dell-pd-img">
+            <div class="all-product-item-text">
+              <li><img src="/img/icon3.webp" alt=""><p>BẢO HÀNH 2 NĂM</p></li>
+              <li><a>HP Pavilion 14 dv2073TU i5 1235U (7C0P2PA)</a></li>
+              <li><span class="ram">RAM 16 GB</span> <span class="ssd">SSD 512 GB</span></li>
+              <li><a href="">20.990.000<sup>đ</sup></a> <span>-15%</span></li>
+              <li>17.690.000<sup>đ</sup></li>
+              <li class="evaluate">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>                                            
+                 <span style="color: #666565; font-size: 15px;">54</span>
+              </li>
+              <li >                   
+                <p>● Màn hình: 14", Full HD</p>
+                <p>● CPU: i5, 1235U, 1.3GHz</p>
+                <p>● Card: Intel Iris Xe</p>
+                <p>● Pin: 3-cell, 43Wh</p>
+                <p>● Khối lượng: 1.41 kg</p>
+              </li>
+            </div>
+          </div>
+                 <!----------------------Laptop_HP_2-------------------------->
+                 <div class="all-product-item">
+                    <img src="/img/pd12-HP_8C5N6PA r7.jpg" alt="dell-pd-img">
+                    <div class="all-product-item-text">
+                      <li><img src="/img/icon3.webp" alt=""><p>BẢO HÀNH 2 NĂM</p></li>
+                      <li><a>HP Gaming VICTUS 16 s0077AX R7 7840HS (8C5N6PA)</a></li>
+                      <li><span class="ram">RAM 16 GB</span> <span class="ssd">SSD 512 GB</span></li>
+                      <li><a href="">31.690.000<sup>đ</sup></a> <span>-23%</span></li>
+                      <li>15.390.000<sup>đ</sup></li>
+                      <li class="evaluate">
+                        <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>                                            
+                         <span style="color: #666565; font-size: 15px;">54</span>
+                      </li>
+                      <li >                   
+                        <p>● Màn hình: 16.1", Full HD, 144Hz</p>
+                        <p>● CPU: i5, 13500H, 2.6GHz</p>
+                        <p>● Card: Intel Iris Xe</p>
+                        <p>● Pin: 3-cell, 50Wh</p>
+                        <p>● Khối lượng: 1.5 kg</p>
+                      </li>
+                    </div>
+                  </div>
+                    <!-----------------------Laptop_HP_3-------------------------->
+                    <div class="all-product-item">
+                        <img src="/img/gallery-8-HP_7C134PA.jpg" alt="dell-pd-img">
+                        <div class="all-product-item-text">
+                          <li><img src="/img/icon3.webp" alt=""><p>BẢO HÀNH 2 NĂM</p></li>
+                          <li><a>HP 15s fq5162TU i5 1235U (7C134PA)</a></li>
+                          <li><span class="ram">RAM 16GB</span> <span class="ssd">SSD 512GB</span></li>
+                          <li><a href="">18.890.000<sup>đ</sup></a> <span>-18%</span></li>
+                          <li>15.390.000<sup>đ</sup></li>
+                          <li class="evaluate">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>                                           
+                             <span style="color: #666565; font-size: 15px;">54</span>
+                          </li>
+                          <li >                   
+                            <p>● Màn hình: 15.6", Full HD</p>
+                            <p>● CPU: i5, 1235U, 1.3GHz</p>
+                            <p>● Card: Intel Iris Xe</p>
+                            <p>● Pin: 3-cell, 41Wh</p>
+                            <p>● Khối lượng: 1.7 kg</p>
+                          </li>
+                        </div>
+                      </div>
+                        <!-----------------------Laptop_HP_4-------------------------->
+                        <div class="all-product-item">
+                            <img src="/img/pd16-HP_7C134PA i5.jpg" alt="dell-pd-img">
+                            <div class="all-product-item-text">
+                              <li><img src="/img/icon3.webp" alt=""><p>BẢO HÀNH 2 NĂM</p></li>
+                              <li><a>HP 15s fq5162TU i5 12000H (7C1201)</a></li>
+                              <li><span class="ram">RAM 16 GB</span> <span class="ssd">SSD 512 GB</span></li>
+                              <li><a href="">21.890.000<sup>đ</sup></a> <span>-18%</span></li>
+                              <li>19.390.000<sup>đ</sup></li>
+                              <li class="evaluate">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>                                            
+                                 <span style="color: #666565; font-size: 15px;">54</span>
+                              </li>
+                              <li >                   
+                                <p>● Màn hình: 15.6", Full HD</p>
+                                <p>● CPU: i5, 12000H, 1.3GHz</p>
+                                <p>● Card: Intel Iris Xe</p>
+                                <p>● Pin: 4-cell, 41Wh</p>
+                                <p>● Khối lượng: 1.66 kg</p>
+                              </li>
+                            </div>
+                          </div>
+                        <!-----------------------Laptop_HP_5-------------------------->
+                        <div class="all-product-item">
+                            <img src="/img/pd17-HP_80R27PA i5.jpg" alt="dell-pd-img">
+                            <div class="all-product-item-text">
+                              <li><img src="/img/icon3.webp" alt=""><p>BẢO HÀNH 2 NĂM</p></li>
+                              <li><a>HP Pavilion X360 14 ek1049TU i5 1335U (80R27PA)</a></li>
+                              <li><span class="ram">RAM 16 GB</span> <span class="ssd">SSD 512 GB</span></li>
+                              <li><a href="">24.290.000<sup>đ</sup></a> <span>-9%</span></li>
+                              <li>21.990.000<sup>đ</sup></li>
+                              <li class="evaluate">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>                                          
+                                 <span style="color: #666565; font-size: 15px;">54</span>
+                              </li>
+                              <li >                   
+                                <p>● Màn hình: 14", Full HD, Cảm ứng</p>
+                                <p>● CPU: i5, 1335U, 1.3GHz</p>
+                                <p>● Card: Intel Iris Xe</p>
+                                <p>● Pin: 3-cell, 43Wh</p>
+                                <p>● Khối lượng: 1.53 kg</p>
+                              </li>
+                            </div>
+                          </div>
+                         <!-----------------------Laptop_HP_6-------------------------->
+                         <div class="all-product-item">
+                            <img src="/img/pd32-HP_Gaming_VICTUS_16_s0139AX_R7_7840HS.jpg" alt="dell-pd-img">
+                            <div class="all-product-item-text">
+                              <li><img src="/img/icon3.webp" alt=""><p>BẢO HÀNH 2 NĂM</p></li>
+                              <li><a>HP Gaming VICTUS 16 s0139AX R7 7840HS (9Q986PA)</a></li>
+                              <li><span class="ram">RAM 32 GB</span> <span class="ssd">SSD 512 GB</span></li>
+                              <li><a href="">37.390.000<sup>đ</sup></a> <span>-23%</span></li>
+                              <li>28.690.000<sup>đ</sup></li>
+                              <li class="evaluate">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>                                           
+                                 <span style="color: #666565; font-size: 15px;">54</span>
+                              </li>
+                              <li >                   
+                                <p>● Màn hình: 16.1", Full HD, 144Hz</p>
+                                <p>● CPU: Ryzen 7, 7840HS, 3.8GHz</p>
+                                <p>● Card: RTX 4060 8GB</p>
+                                <p>● Pin: 4-cell, 70Wh</p>
+                                <p>● Khối lượng: 2.33 kg</p>
+                              </li>
+                            </div>
+                          </div>
+                            <!-----------------------Laptop_HP_7-------------------------->
+                            <div class="all-product-item">
+                                <img src="/img/pd33-HP_Envy_16_h0205TX_i9_12900H.jpg" alt="dell-pd-img">
+                                <div class="all-product-item-text">
+                                  <li><img src="/img/icon3.webp" alt=""><p>BẢO HÀNH 2 NĂM</p></li>
+                                  <li><a>HP Envy 16 h0205TX i9 12900H (7C0T2PA)</a></li>
+                                  <li><span class="ram">RAM 32GB</span> <span class="ssd">SSD 512 GB</span></li>
+                                  <li><a href="">65.390.000<sup>đ</sup></a> <span>-23%</span></li>
+                                  <li>50.090.000<sup>đ</sup></li>
+                                  <li class="evaluate">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>                                           
+                                     <span style="color: #666565; font-size: 15px;">54</span>
+                                  </li>
+                                  <li >                   
+                                    <p>● Màn hình: 16", 4K, Cảm ứng</p>
+                                    <p>● CPU: i9, 12900H, 2.5GHz</p>
+                                    <p>● Card: RTX 3060 6GB</p>
+                                    <p>● Pin: 6-cell Li-ion, 83 Wh</p>
+                                    <p>● Khối lượng: 2.32 kg</p>
+                                  </li>
+                                </div>
+                              </div>
+                          <!-----------------------Laptop_HP_8-------------------------->
+                          <div class="all-product-item">
+                            <img src="/img/pd36-hp_envy-i7-76B13PA.jpg" alt="dell-pd-img">
+                            <div class="all-product-item-text">
+                              <li><img src="/img/icon1.webp" alt=""><p>TẶNG 400K</p></li>
+                              <li><a>HP Envy X360 13 bf0090TU i7 1250U (76B13PA)</a></li>
+                              <li><span class="ram">RAM 16GB</span> <span class="ssd">SSD 512GB</span></li>
+                              <li><a href="">32.990.000<sup>đ</sup></a> <span>-18%</span></li>
+                              <li>26.990.000<sup>đ</sup></li>
+                              <li class="evaluate">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>                                           
+                            <span style="color: #666565; font-size: 15px;">15</span>
+                              </li>
+                              <li >                   
+                                <p>●Màn hình: 13.3", 2K, Cảm ứng</p>
+                                <p>●CPU: i7, 1250U, 1.1GHz</p>
+                                <p>●Card: Intel Iris Xe</p>
+                                <p>●Pin: 4-cell, 66Wh</p>
+                                <p>●Khối lượng: 1.34 kg</p>
+                              </li>
+                            </div>
+                          </div>
+                      <!-----------------------Laptop_HP_9-------------------------->
+                      <div class="all-product-item">
+                        <img src="/img/pd37-hp-gaming-victus-8C5N6PA.jpg" alt="dell-pd-img">
+                        <div class="all-product-item-text">
+                          <li><img src="/img/icon3.webp" alt=""><p>TẶNG 400K</p></li>
+                          <li><a>HP Gaming VICTUS 16 s0077AX R7 7840HS (8C5N6PA)</a></li>
+                          <li><span class="ram">RAM 16 GB</span> <span class="ssd">SSD 512 GB</span></li>
+                          <li><a href="">31.690.000<sup>đ</sup></a> <span>-23%</span></li>
+                          <li>24.090.000<sup>đ</sup></li>
+                          <li class="evaluate">
+                          </li>
+                          <li >                   
+                            <p>●Màn hình: 16.1", Full HD, 144Hz</p>
+                            <p>●CPU: Ryzen 7, 7840HS, 3.8GHz</p>
+                            <p>●Card: RTX 3050 6GB</p>
+                            <p>●Pin: 4-cell, 70Wh</p>
+                            <p>●Khối lượng: 2.34 kg</p>
+                          </li>
+                        </div>
+                      </div>
+                     <!-----------------------Laptop_HP_10-------------------------->
+                     <div class="all-product-item">
+                        <img src="/img/pd35-HP_Elitebook_630_G10_i5_1335U.jpg" alt="dell-pd-img">
+                        <div class="all-product-item-text">
+                          <li><img src="/img/icon3.webp" alt=""><p>BẢO HÀNH 2 NĂM</p></li>
+                          <li><a>HP Elitebook 630 G10 i5 1335U (9J0B4PT)</a></li>
+                          <li><span class="ram">RAM 16 GB</span> <span class="ssd">SSD 512 GB</span></li>
+                          <li><a href="">23.590.000<sup>đ</sup></a> <span>-11%</span></li>
+                          <li>20.890.000<sup>đ</sup></li>
+                          <li class="evaluate">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>                                           
+                             <span style="color: #666565; font-size: 15px;">54</span>
+                          </li>
+                          <li >                   
+                            <p>● Màn hình: 13.3", Full HD</p>
+                            <p>● CPU: i5, 1335U, 1.3GHz</p>
+                            <p>● Card: Intel UHD</p>
+                            <p>● Pin: 3-cell, 42Wh</p>
+                            <p>● Khối lượng: 1.22 kg</p>
+                          </li>
+                        </div>
+                      </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-----------------------------------Phần chân trang-------------------------------------->
+    <section class="myfooter text-black py-4">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-3">
+                  <h6><b>VĂN PHÒNG GIAO DỊCH</b></h6>
+                  <ul class="list-menu">
+                      <li class="li_menu"><a href="/Home/html/Home.html" title="Trang chủ">Trang chủ</a></li>
+                      <li class="li_menu"><a href="/Home/html/All-products.html#laptop-new" title="Laptop mới">Laptop mới</a></li>
+                      <li class="li_menu"><a href="/Home/html/All-products.html" title="Sản phẩm">Sản phẩm</a></li>
+                      <li class="li_menu"><a href="" title="Giới thiệu">Giới thiệu</a></li>
+                      <li class="li_menu"><a href="" title="Tin tức mới">Tin tức mới</a></li>
+                      <li class="li_menu"><a href="" title="Tuyển dụng">Tuyển dụng</a></li>
+                      <li class="li_menu"><a href="tel:0999.999.999" title="Liên hệ">Liên hệ</a></li>
+                      </ul>
+              </div>
+              <div class="col-md-3">
+                  <h6><b>THÔNG TIN CÔNG TY</b></h6>
+                  <ul class="list-menu">
+                      <li class="li_menu"><a href="" title="Giới thiệu công ty">Giới thiệu công ty</a></li>
+                      <li class="li_menu"><a href="" title="Tuyển dụng">Tuyển dụng</a></li>
+                      <li class="li_menu"><a href="" title="Góp ý, khiếu nại">Gửi góp ý khiếu nại</a></li>
+                      <li class="li_menu"><a href="tel:0999.999.999" title="Liên hệ">Liên hệ</a></li>
+                      </ul>
+              </div>
+              <div class="col-md-3">
+                  <h6><b>CHÍNH SÁCH CÔNG TY</b></h6>
+                  <ul class="list-menu">
+                      <li class="li_menu"><a href="" title="Bảo hành">Chính sách bảo hành - bảo trì</a></li>
+                      <li class="li_menu"><a href="" title="Đổi trả">Chính sách đổi trả</a></li>
+                      <li class="li_menu"><a href="" title="Bảo mật">Chính sách bảo  mật thông tin</a></li>
+                      <li class="li_menu"><a href="" title="Hướng dẫn">Hướng dẫn mua hàng - thanh toán</a></li>
+                      <li class="li_menu"><a href="tel:0999.999.999" title="Liên hệ">Liên hệ</a></li>
+                      </ul>
+              </div>
+              <div class="col-md-3">
+                <h5><b>Tổng đài hỗ trợ</b></h5>
+                <ul>
+                    <li>Gọi mua: <a href="tel:0999.999.999" style="color: #2f80ed; font-weight: bold;">0999.999.999</a> (7:30-22:00)</li>
+                    <li>Khiếu nại: <a href="tel:0999.999.999" style="color: #2f80ed; font-weight: bold;">0999.999.999</a> (7:30-21:30)</li>
+                    <li>Bảo hành: <a href="tel:0666.666.666" style="color: #2f80ed; font-weight: bold;">0666.666.666</a> (7:30-21:00)</li>
+                    </ul>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+              <div class="col-md-6">
+                  <h6><b>CÔNG TY TNHN CHUYÊN LAPTOP THIỆN DŨNG</b></h6>
+                  <li>Chứng nhận ĐKKD số: 09988776655 do sở KH & ĐT TP.Hà Nội cấp</li>
+                  <li>Địa chỉ: Số 21, ngõ 121, Trâu Quỳ, Gia Lâm, Hà Nội</li>
+                   <li>Hotline: 0999 999 999</li>
+                  <li>Email: thiendung999@gmail.com</li>
+              </div> 
+              <div class="col-md-6">
+                  <h7><b>NHẬN THÔNG TIN KHUYẾN MÃI</b></h7>
+                  <div class="input-group mb-3 py-3  ">
+                      <input type="text" class="form-control" placeholder="Nhập email của bạn vào đây" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                      <span class="input-group-text text-white bg-info" id="basic-addon2">Đăng ký</span>
+                    </div>
+                    <div>
+                       <a href="https://www.youtube.com/">
+                     <span class="circle border border-danger mr-3 text-danger">
+                     <i class="fa-brands fa-youtube"></i></a>
+                     </span>
+                     <a href="https://www.facebook.com/">
+                     <span class="circle border border-danger mr-3 text-primary">
+                      <i class="fa-brands fa-facebook"></i></a>
+                     </span>
+                     <a href="https://www.instagram.com/">
+                     <span class="circle border border-danger mr-3 text-warning">
+                      <i class="fa-brands fa-instagram"></i></a>
+                     </span>
+                    </div>
+          </div>
+          </div>
+          <hr>
+          <div class="row">
+              <div class="text-center ">©2024 | Bản quyền thuộc về <a href="/Home/html/Home.html" target="_parent" style="text-decoration: none">Cty TNHH Thiện Dũng</a> Cung cấp bởi <a href="/Home/html/Home.html" target="_parent" style="text-decoration: none">Laptop Thiện Dũng</a>
+              </div>      
+          </div>
+      </div>
+  </section>
+
+    <div id="backtop"><i class="fa-solid fa-angles-up" onclick="window.scrollTo(0, 0);"></i></div>
+  
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+   <script>
+    $(document).ready(function() {
+      $(window).scroll(function() {
+        if ($(this).scrollTop()) {
+          $('#backtop').fadeIn();
+        }else{
+          $('#backtop').fadeOut();
+        } 
+      });
+      $("#backtop").click(function(){
+       $('html, body').animate({
+        scrollTop: 0
+       }, 100);
+       });
+    });
+   </script>
+</html>

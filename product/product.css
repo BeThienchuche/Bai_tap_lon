@@ -1,0 +1,276 @@
+li{
+    list-style: none;
+}
+
+/*-------------------------------------Phần nội dung-----------------------------------*/
+ .title-one{
+    margin-top: 12px;
+ }
+
+ .title-one a{
+    text-decoration: none;
+ }
+
+ /*--------------------------------------img_title_các_hãng_laptop------------------------------------*/
+ .macbook-title-img img{
+    height: 250px;
+    width: 1330px;
+ }
+
+ .asus-title-img img{
+   height: 250px;
+   width: 1294px;
+ }
+
+ .dell-title-img img{
+   height: 250px;
+   width: 1294px;
+ }
+
+ .hp-title-img img{
+   height: 250px;
+   width: 1294px;
+ }
+
+ .lenovo-title-img img{
+   height: 250px;
+   width: 1294px;
+ }
+
+ .msi-title-img img{
+   height: 250px;
+   width: 1294px;
+ }
+
+  /*----------------------------------------css phần all-product---------------------------------*/
+   .all-product{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;   /* -----------Tự động xuống dòng--------*/
+    background-color: #fff;
+   }
+   
+   .all-product-item{
+    width: 20%;
+    padding: 60px 12px 40px;
+    border: 1px solid #f3f1f1;
+    cursor: pointer;
+    border-radius: 5px;
+   }
+  
+   .all-product-item:hover{
+    box-shadow: 4px 4px 4px #f0ebeb;
+   }
+  
+   .all-product-item> img{
+      width: 100%;
+      transition: all 0.3s ease;
+   }
+  
+   .all-product-item:hover> img{
+    transform: translateY(-15px);
+   }
+  
+  
+   .all-product-item-text{
+    padding-top: 50px;
+   }
+  
+   .all-product-item-text li{
+    margin-top: 4px;
+   }
+  
+   .all-product-item-text li:first-child{ /*css phần tử li con đầu tiên */
+     height: 20px;
+     width: 58%;
+     background-color: rgb(244, 44, 111);
+     display: inline-block;
+     margin-bottom: 3px;
+     align-items: center;
+     line-height: 18px;
+     border-radius: 40px;
+   }
+  
+   .all-product-item-text li:first-child p{
+    color: #fff;
+    font-size: 12px;
+    padding: 1px;
+   }
+  
+   .all-product-item-text li:first-child img{
+    width: 20px;
+    float: left;
+    margin-right: 6px;
+   }
+  
+   .all-product-item-text li:nth-child(2){ /*css phần tử li con thứ 2*/
+    font-size: 15px;
+    color: black;
+   }
+   
+   .all-product-item:hover  .all-product-item-text li:nth-child(2) a{
+    color: rgb(9, 129, 248); /* Thay đổi màu chữ thành đỏ khi di chuột vào vùng margin của phần sản phẩm */
+  }
+
+  .all-product-item-text a{
+    color: #333;
+    text-decoration: none;
+  }
+  
+   .all-product-item-text li .ram {
+     background-color: #e0e0e0;
+     padding: 2px 5px;
+     border-radius: 2px;
+     margin-right: 3px;
+     font-size: 12px;
+  }
+  
+   .all-product-item-text li .ssd {
+     background-color: #e0e0e0;
+     padding: 2px 5px;
+     border-radius: 3px;
+     margin-right: 5px;
+     font-size: 12px;
+  }
+
+  .all-product-item-text li:nth-child(4) a{/*css phần tử li con thứ 4*/
+     text-decoration: line-through;
+     color: black;
+     font-size: 15px;
+   }
+  
+   .all-product-item-text li:nth-child(5){
+    font-weight: bold;
+    color: #ed391e;
+   }
+  
+   .all-product-item-text li:nth-child(6){
+    color: #FB6E2E;
+    font-size: 15px;
+   }
+   
+   .gray-star{ /* css cho color ngôi sao màu xám*/
+    color: #999;
+   } 
+
+   .all-product-item-text li:nth-child(7){
+    font-size: 13px;
+    margin-top: 12px;
+    line-height: 10px;
+    color: #333;
+   }
+  
+  /* ----------------------------------------MacBook-----------------------------------------*/
+   
+  .all-macbook{
+    background-image: linear-gradient(to bottom right, rgb(23, 23, 23), rgb(43, 43, 43));
+    margin: 65px;
+    border-radius: 8px;
+    padding-bottom: 40px;
+   }
+  
+   .all-macbook-title h1{
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 3px 6px rgb(241, 241, 241); /* ---đổ bóng chữ-----*/  
+    padding: 25px 25px;
+   }
+
+   /* ----------------------------------------LAPTOP_ASUS-----------------------------------------*/
+   
+  .all-asus{
+   background-image: linear-gradient(to bottom right, rgb(146, 143, 143), rgb(100, 99, 99));
+   margin: 65px;
+   border-radius: 8px;
+   padding-bottom: 40px;
+  }
+ 
+  .all-asus-title {
+   color: #ffffff;
+   text-align: center;
+   font-weight: bold;
+   text-shadow: 3px 3px 6px rgb(241, 241, 241); /* ---đổ bóng chữ-----*/  
+   padding: 25px 25px;
+  }
+
+  .all-asus-title img{
+   height: 30px;
+}
+
+ /* ----------------------------------------LAPTOP_DELL-----------------------------------------*/
+
+.all-dell{
+   background-image: linear-gradient(to bottom right, rgb(20, 20, 20), rgb(182, 234, 248));
+   margin: 65px;
+   border-radius: 8px;
+   padding-bottom: 40px;
+  }
+ 
+  .all-dell-title {
+   text-align: center;
+   padding: 25px 25px;
+  }
+
+  .all-dell-title img{
+   width: 80px;
+  height: 80px;
+  margin-top: -12px;
+}
+
+/* ----------------------------------------LAPTOP_HP-----------------------------------------*/
+
+.all-hp{
+   background-image: linear-gradient(to bottom right, rgb(218, 220, 221), rgb(193, 190, 190));
+   margin: 65px;
+   border-radius: 8px;
+   padding-bottom: 40px;
+  }
+ 
+  .all-hp-title {
+   text-align: center;
+   padding: 25px 25px;
+  }
+
+  .all-hp-title img{
+   height: 80px;
+   width: 130px;
+}
+ 
+  /* ----------------------------------------LAPTOP_LENOVO-----------------------------------------*/
+.all-lenovo{
+   background-image: linear-gradient(to bottom right, rgb(250, 228, 228), rgb(245, 241, 241));
+   margin: 65px;
+   border-radius: 8px;
+   padding-bottom: 40px;
+  }
+ 
+  .all-lenovo-title h1{
+   color: #f10808;
+   text-align: center;
+   font-weight: bold;
+   text-shadow: 3px 3px 6px rgb(249, 113, 113); /* ---đổ bóng chữ-----*/  
+   padding: 25px 25px;
+  }
+   
+  /* ----------------------------------------LAPTOP_MSI-----------------------------------------*/
+
+.all-msi{
+   background-image: linear-gradient(to bottom right, rgb(243, 59, 59), rgb(248, 170, 158));
+   margin: 65px;
+   border-radius: 8px;
+   padding-bottom: 40px;
+  }
+ 
+  .all-msi-title {
+   text-align: center;
+   padding: 25px 25px;
+  }
+
+  .all-msi-title img{
+   width: 150px;
+  height: 100px;
+  margin-top: -15px;
+}
+
+   
